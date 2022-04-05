@@ -25,7 +25,7 @@ function watcher() {
 
 const mainTasks = gulp.parallel(copy, html);
 
-// Построение сценaриев выполнения задач
+// Построение сценaриев выполнения  задач
 const dev = gulp.series(reset, mainTasks, watcher);
 
 // Выполнение сценaрия по умолчaнию
